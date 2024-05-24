@@ -1,0 +1,56 @@
+- cd : change directory - thay đổi thư mục
+  cd .. : Quay lai thu muc cha
+
+- dir (Ms windows) : Hien thi danh sach tap tin/ thu muc ben trong thu muc me
+	dir : hien thi danh sach trong file
+
+-mkdir "Ten folder" : tao file moi
+
+-touch "Ten File " : tao tap tin moi
+
+-echo : in/ xuat noi dung
+
+git init :tao respository
+git clone :  lay code tren mang ve 
+git pull : dong bo tren mang ve may
+
+
+
+git add & git add . : them file cac thu
+git commit  : them file cac thu
+git push : dong bo tu may len mang
+
+git log : check 
+git log --decorate -- graph --oneline
+
+---------------------------------------
+Đẩy code lên git cơ bản
+
+git init 
+git status
+Thieu file nao thi add file do vao (git add ... (index.html))
+git commit -m (Tac dung la gi vd: Add index.html file)
+git log (kiem tra)
+git remote ad origin Link git
+git push -u origin master
+
+muon tao them file 
+git add . (add toan bo cac file )
+git commit -m( "..... ")
+
+dong bo code 
+git pull
+
+---------------------------------------------
+
+git branch "Ten file ": Tao branch moi
+git checkout "ten file ": Chuyen sang branch ms tao
+git merge "ten file " : lay code ben branch moi tao qua branch master
+git push --set-upstream origin "ten file": tao branch ten
+
+tao branch nhanh 
+git checkout -b "ten file" : tao va tu checkout vao file 
+
+nang cao 
+git rebase
+git cherry-pick
